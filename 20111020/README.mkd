@@ -1,5 +1,9 @@
 # That's the coding dojo started at 2010-10-20 at @giran_br
 
+## Status
+
+*Not finished*
+
 ## The problem
 
 We pick the problem from [DojoPuzzles](http://dojopuzzles.com).
