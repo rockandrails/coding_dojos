@@ -9,10 +9,10 @@ The problem choosed was (Analisando URLs)[http://dojopuzzles.com/problemas/exibe
 
 ## The Team
 
-@m3nd3s
-@urieljuliatti
-@amendesdesign
-@tagliati
-@leohackin
-@jvrmaia
-@glbenz
+* @m3nd3s
+* @urieljuliatti
+* @amendesdesign
+* @tagliati
+* @leohackin
+* @jvrmaia
+* @glbenz
