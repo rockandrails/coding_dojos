@@ -1,0 +1,5 @@
+require "rake"
+
+task :spec do |t|
+  sh "rspec spec"
+end
