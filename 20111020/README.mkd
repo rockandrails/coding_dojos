@@ -2,9 +2,9 @@
 
 ## The problem
 
-We pick the problem from (DojoPuzzles)[http://dojopuzzles.com].
+We pick the problem from [DojoPuzzles](http://dojopuzzles.com).
 
-The problem choosed was (Analisando URLs)[http://dojopuzzles.com/problemas/exibe/analisando-urls/]
+The problem choosed was [Analisando URLs](http://dojopuzzles.com/problemas/exibe/analisando-urls/)
 
 
 ## The Team
