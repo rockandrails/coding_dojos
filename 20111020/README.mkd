@@ -1,0 +1,18 @@
+# That's the coding dojo started at 2010-10-20 at @giran_br
+
+## The problem
+
+We pick the problem from (DojoPuzzles)[http://dojopuzzles.com].
+
+The problem choosed was (Analisando URLs)[http://dojopuzzles.com/problemas/exibe/analisando-urls/]
+
+
+## The Team
+
+@m3nd3s
+@urieljuliatti
+@amendesdesign
+@tagliati
+@leohackin
+@jvrmaia
+@glbenz
