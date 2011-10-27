@@ -30,9 +30,19 @@ describe Url do
     url.should_not be_valid
   end
 
-  it "should not be valid if doesn't return the protocol" do
-    url = Url.new("http://.com")
-    url.get_tokens
+  it "return tokens for :// and / split" do
+    url = Url.new("http://giran.com/dojo")
+    url.get_tokens.should eql(["http", "giran.com", "dojo"])
+  end
+
+  it "should return an array equals ['http', 'www', 'giran.com', 'dojo']" do
+    url = Url.new("http://www.giran.com/dojo")
+    url.get_tokens.should eql(["http", "www", "giran.com", "dojo"])
+  end
+
+  it "should return an array equals ['http', 'www', 'giran.com', 'dojo' 'thursday']" do
+    url = Url.new("http://www.giran.com/dojo/thursday")
+    url.get_tokens.should eql(["http", "www", "giran.com", "dojo/thursday"])
   end
 
 end

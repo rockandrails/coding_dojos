@@ -1,3 +1,6 @@
+#
+# Entrada: http://www.google.com/mail/xyz?user=fulano
+# 
 class Url
    
   attr_accessor :url, :protocol, :host, :domain, :path, :params
@@ -11,8 +14,11 @@ class Url
   end
  
   def get_tokens
-     @url.split(/:\/\//)
-
+      u = @url.split(/:\/\//)
+      if u[1].split(".").size > 2
+        u[1] = u[1].split(".", 2)
+      end
+      u.flatten
   end
 
 
