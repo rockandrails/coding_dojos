@@ -1,0 +1,8 @@
+Coding Dojo realizado no dia 18/05/2013
+
+## Problema
+
+Fonte: [Diamante](http://dojopuzzles.com/problemas/exibe/diamantes/):
+
+Dado uma letra ('A' a 'Z'), exiba um diamante iniciando em 'A' e tendo a letra fornecida com o ponto mais distante.
+
