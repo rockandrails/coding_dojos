@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require '../lib/diamante'
+
+arg = ARGV[0] || "Z"
+
+begin
+  diamante = Diamante.new(arg)
+  puts diamante.print
+rescue => e
+  puts e.message
+end
