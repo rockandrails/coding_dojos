@@ -1,3 +1,5 @@
+require "colorize"
+
 class Diamante
   attr_reader :range
 
@@ -11,7 +13,7 @@ class Diamante
   end
 
   def body(letter)
-    " " * ((2 * @range.index(letter).to_i) - 1)
+    ".".red * ((2 * @range.index(letter).to_i) - 1)
   end
 
   def line(letter)

@@ -1,5 +1,7 @@
 require "rspec"
 require "diamante"
+require "colorize"
+
 describe Diamante do
   it "deve receber 'A' e range ser [A]" do
     diamante = Diamante.new("A")
@@ -27,10 +29,10 @@ describe Diamante do
   it "deve receber 'B' e retornar 'B B'" do
     diamante = Diamante.new("B")
     print = diamante.print.split("\n")
-    print[1].should == "B B"
+    print[1].should == "B" + ".".red + "B"
   end
 
-  it "deve receber 'C' e range=[A,B]" do
+  it "deve receber 'C' e range=[A,B,C]" do
     diamante = Diamante.new("C")
     diamante.range.should == %w(A B C)
   end
@@ -53,14 +55,14 @@ describe Diamante do
   end
 
   context "#body" do
-    it "deve retornar 1 espaço para B" do
+    it "deve retornar 1 ponto vermelho para B" do
       diamante = Diamante.new("C")
-      diamante.body("B").should == " "
+      diamante.body("B").should == ".".red
     end
 
-    it "deve retornar 3 espaço para C" do
+    it "deve retornar 3 pontos vermelhos para C" do
       diamante = Diamante.new("C")
-      diamante.body("C").should == "   "
+      diamante.body("C").should == ".".red * 3
     end
   end
 end
