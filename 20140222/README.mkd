@@ -1,0 +1,26 @@
+# Coding dojo remoto
+
+Ferramentas utilizadas:
+
+* Google Hangouts
+* Nitrous.io
+
+Realizado em: 22/02/2014
+
+## Problema
+
+http://dojopuzzles.com/problemas/exibe/escrevendo-no-celular/
+
+## Participantes
+
+[Hercules Merscher](http://github.com/hlmerscher)
+
+[Denilson Telaroli](http://github.com/dtelaroli)
+
+[Gil Gomes](http://github.com/gil27)
+
+[Tiago Fardin](https://plus.google.com/+TiagoRodriguesFardin)
+
+## Outras informações
+
+http://dojoonde.herculesdev.com.br/dojos/48
